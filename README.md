@@ -36,7 +36,7 @@ parser_config.gitignore = {
 
 ## Generate `.gitignore` files
 
-Generate `.gitignore` files with common exclude patterns. Templates are provided by [gitignore.io](https://gitignore.io). There is a `telescope.nvim` picker for selecting the templates.
+Generate `.gitignore` files based on templates with common exclude patterns. Templates are provided by [gitignore.io](https://gitignore.io). There is a `telescope.nvim` picker for selecting the templates.
 
 Load the extension:
 
@@ -47,5 +47,5 @@ require('telescope').load_extension 'gitignore'
 and run the following command:
 
 ```viml
-Telescope gitignore generate
+Telescope gitignore templates
 ```
